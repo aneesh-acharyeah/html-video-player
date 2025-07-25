@@ -14,28 +14,6 @@ This is a custom HTML5 video player built with HTML, CSS, and JavaScript. It pro
 - **Responsive Design**: Adapts to different screen sizes, with adjustments for mobile devices.
 - **Modern Styling**: Clean, minimalistic UI with hover effects, custom colors, and smooth transitions.
 
-## Setup Instructions
-1. **Clone or Download**:
-   - Copy the `index.html` file containing the video player code to your project directory.
-
-2. **Host the Video**:
-   - The player uses a sample video from Google's video bucket (`BigBuckBunny.mp4`). To use your own video:
-     - Replace the `<source>` tag's `src` attribute in the `<video>` element with the URL or path to your video file (e.g., `<source src="path/to/your/video.mp4" type="video/mp4">`).
-     - Ensure the video format is supported by modern browsers (e.g., MP4, WebM).
-
-3. **Serve the File**:
-   - Host the `index.html` file on a web server (e.g., using `http-server`, Apache, or Nginx) or open it directly in a browser for local testing (note: some features like fullscreen may require a server due to browser security restrictions).
-   - Example for local testing with Node.js:
-     ```bash
-     npm install -g http-server
-     http-server .
-     ```
-     Then navigate to `http://localhost:8080` in your browser.
-
-4. **Browser Compatibility**:
-   - Tested on modern browsers (Chrome, Firefox, Edge, Safari).
-   - Ensure your browser supports HTML5 video and the fullscreen API.
-
 ## Usage
 - **Play/Pause**: Click the play button (▶/❚❚) or the video itself to toggle playback.
 - **Seek**: Click or drag the progress bar to jump to a specific time. Hover over the progress bar to see a time preview.
