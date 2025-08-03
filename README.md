@@ -1,4 +1,4 @@
-# Custom HTML Video Player
+# Custom HTML Video Player 
 
 ## Overview
 This is a custom HTML5 video player built with HTML, CSS, and JavaScript. It provides a modern, user-friendly interface with essential video playback features, styled using custom CSS with a clean and responsive design. The player is designed to work in modern web browsers and supports a variety of controls for an enhanced viewing experience.
